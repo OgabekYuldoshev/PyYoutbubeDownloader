@@ -77,8 +77,7 @@ buttonMusic = Button(frame, command=onDownloadMusic, text="Download Music", padx
 buttonVideo.pack(side=LEFT)
 buttonMusic.pack(side=RIGHT)
 
-# photo = PhotoImage(file = "icon.png")
-root.iconbitmap("C:\\Users\\Anonymous\\Desktop\\python\\icon.ico")
+root.iconbitmap("icon.ico")
 
 root.title('Youtube Downloader')
 screenH = root.winfo_screenheight()
